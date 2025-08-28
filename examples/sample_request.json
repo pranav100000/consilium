@@ -1,0 +1,14 @@
+{
+  "models": [
+    "openai:gpt-4o-mini",
+    "openai:gpt-4o-mini",
+    "openai:gpt-4o-mini"
+  ],
+  "initial_contexts": [
+    "You are an expert in algorithm design and computational efficiency.",
+    "You are an expert in code readability and best practices.",
+    "You are an expert in error handling and edge cases."
+  ],
+  "problem": "Write a Python function that finds the k-th largest element in an unsorted array. The function should be efficient and handle edge cases properly.",
+  "max_iterations": 10
+}
