@@ -22,6 +22,11 @@ class ConsiliumRequest(BaseModel):
     enable_solution_history: bool = Field(default=False)
     early_stop_on_plateau: bool = Field(default=True)
     weighted_voting: bool = Field(default=False)
+    # Strictness settings
+    strict_mode: bool = Field(default=False, description="Use stricter consensus requirements")
+    force_iterations: int = Field(default=1, ge=0, description="Minimum iterations before consensus check")
+    require_perfection_early: bool = Field(default=False, description="Require PERFECT ratings in early iterations")
+    diversity_threshold: float = Field(default=0.3, ge=0, le=1, description="Minimum solution diversity")
 
 
 class Critique(BaseModel):
