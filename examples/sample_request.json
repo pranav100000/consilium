@@ -10,5 +10,5 @@
     "You are an expert in error handling and edge cases."
   ],
   "problem": "Write a Python function that finds the k-th largest element in an unsorted array. The function should be efficient and handle edge cases properly.",
-  "max_iterations": 10
+  "max_iterations": 3
 }
